@@ -1,0 +1,3 @@
+# Unexpected Null Handling in JavaScript Function
+
+This repository demonstrates a common issue in JavaScript functions: silent failure when null values are passed as arguments. The `foo` function, in `bug.js`,  doesn't explicitly handle null inputs leading to unexpected program flow.  `bugSolution.js` provides a corrected version with improved null handling.  This example illustrates the importance of robust null checks to prevent unexpected behavior and improve code reliability.
